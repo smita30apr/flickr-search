@@ -1,0 +1,7 @@
+<div>
+    <img ng-src = {{bigImage}}>
+    <h3 align="center"><u>Exec Data</u></h3>
+    <ul ng-repeat="exif in exifData.photo.exif">
+        <li class="col-xs-6 col-lg-4 col-md-3 col-sm-6">{{exif.label}} : <b>{{exif.raw._content}}</b></li>
+    </ul>
+</div>
